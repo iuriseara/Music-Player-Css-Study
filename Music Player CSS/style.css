@@ -1,0 +1,107 @@
+body {
+    margin: 0em;
+    font-family: 'Heebo', sans-serif;
+    background-color: rgb(196, 196, 196);
+}
+
+.container {
+    width: calc(511px / 1.5);
+    height: calc(824px / 1.5);
+    background-color: #FF0D0D;
+    margin: 20vh auto;
+    border-radius: 10px;
+}
+
+.container:hover {
+    box-shadow: 0 0 55px #FF0D0D;
+}
+
+.image {
+    background-color: white;
+    background-image: url(/img/Tame\ Impala\ Cover.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    margin: 25px 25px;
+    border-radius: 10px;
+}
+
+.image:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 14px 33px 25px rgba(255, 255, 255, 0.28);
+    box-shadow: 0px 10px 13px -7px #000000, 2px 14px 33px 25px rgba(255, 255, 255, 0.28);
+}
+
+.text {
+    padding-top: 315px;
+    padding-left: 22px;
+}
+
+.bar {
+    position: absolute;
+    margin-left: 23px;
+
+}
+
+h1 {
+    font-size: 55px;
+    color: white;
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    color: white;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
+
+.play-btn .play-btn {
+    position: relative;
+
+}
+
+.play {
+    margin-left: 253px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.pause {
+    margin-left: 253px;
+    margin-top: -18px;
+    position: absolute;
+    display: none;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 217px;
+    margin-top: -50px;
+}
+
+.time-wrapper {
+    position: absolute;
+    margin-top: 40px;
+}
+
+.barcounter {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 7px;
+    position: absolute;
+}

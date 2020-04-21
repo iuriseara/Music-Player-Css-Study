@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="301.034" height="11.034" viewBox="0 0 301.034 11.034">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 10px;
+        opacity: 0.433;
+      }
+    </style>
+  </defs>
+  <line id="Background_Line" data-name="Background Line" class="cls-1" y1="1" x2="291" transform="translate(5.017 5.017)"/>
+</svg>
